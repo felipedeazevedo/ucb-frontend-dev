@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto da aula do dia 13/05 - página de contato</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <header class="menu-bar">
+        <figure>
+            <img src="https://ucb.catolica.edu.br/portal/wp-content/uploads/2021/06/catolica-de-brasilia.svg" alt="Logo UCB">
+        </figure>
+        <section class="menu-itens-section">
+            <nav>
+                <a class="menu-item" href="home.html">Home</a>
+                <a class="menu-item">Sobre</a>
+                <a class="menu-item">Preços</a>
+                <a class="menu-item">Serviços</a>
+                <a class="menu-item" href="contato.html">Contato</a>
+            </nav>
+        </section>
+    </header>
+    <section class="form-section">
+        <div>
+            <form>
+                <fieldset>
+                    <h1 id="contato-form-title">Contato</h1>
+                    <div class="form-input-div">
+                        <label for="name-input">Nome</label>
+                        <input class="form-input" type="text" id="name-input" name="name-input" placeholder="Seu nome"><br>
+                    </div>
+                    <div class="form-input-div">
+                        <label for="tel-input">Fone</label>
+                        <input class="form-input" type="tel" id="tel-input" name="tel-input" placeholder="(xx) XXXXX-XXXX"><br>
+                    </div>
+                    <div class="form-input-div">
+                        <label for="email-input">Email</label>
+                        <input class="form-input" type="email" id="email-input" name="email-input" placeholder="e-mail@mail.com"><br>
+                    </div>
+                    <div class="textarea-div-margin-top">
+                        <label style="vertical-align: 50px" for="message-input">Mensagem</label>
+                        <textarea 
+                            name="message-input" 
+                            id="message-input" 
+                            placeholder="Mensagem..." 
+                            style="padding: 8px"
+                            cols="39" 
+                            rows="5"></textarea><br>
+                    </div>
+                    <div class="form-buttons-div">
+                        <input class="form-buttons-input limpar-input-margin-right" type="reset" value="Limpar">
+                        <input class="form-buttons-input " type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

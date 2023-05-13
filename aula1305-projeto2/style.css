@@ -1,0 +1,149 @@
+/**
+    Barra do topo, menu e estilização geral
+**/
+
+html * {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #dbdbdd;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    height: 100px;
+    width: 400px;
+    margin-top: 30px;
+}
+
+.menu-bar {
+    background: linear-gradient(90deg, rgba(20,20,91,1) 0%, rgba(16,16,102,1) 38%, rgba(31,31,130,1) 100%);
+}
+
+.menu-itens-section {
+    position: absolute;
+    top: 55px;
+    right: 60px;
+    text-align: center;
+}
+
+.menu-item { 
+    color: #ffff;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.menu-item:hover {
+    background-color: white;
+    color: #202057;
+    border-radius: 2px;
+}
+
+/**
+    Título e "botões" da Home
+**/
+
+#home-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 550;
+    color: #ffff;
+    margin-top: 150px;
+    font-stretch: expanded;
+}
+
+.buttons-div {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.button-font {
+    font-weight: lighter;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.saiba-mais-span {
+    border: 1px solid #ffff;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.saiba-mais-button {
+    color: #ffff;
+}
+
+.contato-span {
+    background-color: #ffff;
+    border-radius: 3px;
+    border: 1px solid #ffff;
+    padding: 15px;
+}
+
+.contato-button {
+    color: #8a8a8a;
+}
+
+/** 
+    Formulário de contato
+**/
+
+.form-section {
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+fieldset {
+    width: 380px;
+    border: 2px solid #ffff;
+    border-radius: 4px;
+    padding-right: 0;
+}
+
+#contato-form-title {
+    color: #ffff;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.form-input-div {
+    margin-bottom: 8px;
+    height: 50px;
+}
+
+.form-input {
+    width: 265px;
+    padding: 12px;
+    position: relative;
+    float: right;
+    margin-right: 2px;
+}
+
+.form-buttons-div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-buttons-input {
+    padding: 18px;
+    width: 165px;
+}
+
+.limpar-input-margin-right {
+    margin-right: 15px;
+}
+
+.textarea-div-margin-top {
+    margin-top: 25px;
+}
